@@ -7,6 +7,16 @@
   "author": "vivafrog",
   "license": "MIT",
   "dependencies": {
-    "graphql-yoga": "^1.18.0"
+    "global": "^4.4.0",
+    "graphql-yoga": "^1.18.0",
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
   }
 }
