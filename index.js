@@ -1,8 +1,8 @@
 import {
-    GraphQlServer
+    GraphQLServer
 } from "graphql-yoga";
 
-const server = new GraphQlServer({
+const server = new GraphQLServer({
 
 })
 
