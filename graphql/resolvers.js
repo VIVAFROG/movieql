@@ -6,7 +6,9 @@ import {
 const resolvers = {
     Query: {
         people: () => people,
-        person: () => getById
+        person: (_, {
+            id
+        }) => getById(id)
     }
 };
 
